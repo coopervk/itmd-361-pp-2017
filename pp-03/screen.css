@@ -17,18 +17,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 #three {
   background-color: purple;
+	order: 3;
 }
 #two {
   background-color: green;
+	order: 2;
 }
 #one {
   background-color: red;
+	order: 1;
 }
 
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+	display: flex;
 }
 
 #three,
