@@ -18,14 +18,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three {
   background-color: purple;
 	order: 3;
+	height: 30vw;
+	width: 30vw;
 }
 #two {
   background-color: green;
 	order: 2;
+	height: 30vw;
+	width: 30vw;
 }
 #one {
   background-color: red;
 	order: 1;
+	height: 30vw;
+	width: 30vw;
 }
 
 
