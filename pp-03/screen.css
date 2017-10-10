@@ -14,30 +14,27 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   color: white;
+	height: 33.333vw;
+	width: 33.333vw;
 }
 #three {
   background-color: purple;
 	order: 3;
-	height: 30vw;
-	width: 30vw;
 }
 #two {
   background-color: green;
 	order: 2;
-	height: 30vw;
-	width: 30vw;
 }
 #one {
   background-color: red;
 	order: 1;
-	height: 30vw;
-	width: 30vw;
 }
 
 
 /* ==== LAYOUT STYLES ==== */
 #content {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 #three,
@@ -59,7 +56,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 600px) {
-
 }
 
 @media screen and (min-width: 800px) {
