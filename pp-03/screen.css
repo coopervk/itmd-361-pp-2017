@@ -14,6 +14,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   color: white;
+	height: 33.3333vw;
+	flex-grow: 1;
 }
 #three {
   background-color: purple;
@@ -30,12 +32,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #content {
 	display: flex;
 	flex-direction: column-reverse;
+
 }
 
 #three,
 #two,
 #one {
-	
+	height: 100vw;	
 }
 
 #three {
