@@ -32,7 +32,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #content {
 	display: flex;
 	flex-direction: column-reverse;
-
 }
 
 #three,
@@ -55,6 +54,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 	#one,
 	#two,
 	#three {
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		flex-grow: 1;
+	}
+	#one,
+	#two {
+		height: 50vw;
+	}
+	#three {
+		height: 100vw;
 	}
 }
 
