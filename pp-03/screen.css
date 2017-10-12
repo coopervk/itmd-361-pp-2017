@@ -14,8 +14,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   color: white;
-	height: 33.3333vw;
-	flex-grow: 1;
+  height: 33.3333vw;
+  flex-grow: 1;
 }
 #three {
   background-color: purple;
@@ -30,52 +30,36 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-#three,
-#two,
-#one {
-	height: 100vw;	
-}
-
-#three {
-}
-
-#two {
-}
-
-#one {
-
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 @media screen and (min-width: 600px) {
-	#one,
-	#two,
-	#three {
-		flex-direction: row-reverse;
-		flex-wrap: wrap;
-		flex-grow: 1;
-	}
-	#one,
-	#two {
-		height: 50vw;
-	}
-	#three {
-		height: 100vw;
-	}
+  #one,
+  #two,
+  #three {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  #one,
+  #two {
+    height: 50vw;
+  }
+  #three {
+    height: 100vw;
+  }
 }
 
 @media screen and (min-width: 800px) {
-	#one,
-	#two,
-	#three {
-		height: 33.3333vw;
-	}
-	#content {
-		flex-direction: row-reverse;
-		flex-wrap: wrap;
-		flex-grow: 1;
-	}
+  #one,
+  #two,
+  #three {
+    height: 33.3333vw;
+  }
+  #content {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
 }
