@@ -71,5 +71,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 	#one,
 	#two,
 	#three {
+		height: 33.3333vw;
+	}
+	#content {
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		flex-grow: 1;
 	}
 }
