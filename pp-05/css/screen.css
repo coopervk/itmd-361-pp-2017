@@ -32,3 +32,8 @@ body {
   color: #630;
   cursor: pointer;
 }
+
+#doorbell-button:hover,
+#doorbell-button:focus {
+  background-color: #888;
+}
