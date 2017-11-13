@@ -10,3 +10,10 @@ $("#doorbell-player").replaceWith('<button id="doorbell-button">Play a doorbell 
 $("#doorbell-button").click(function() {
   ringDoorbell();
 });
+
+//100 corresponds to d button, https://www.w3.org/2002/09/tests/keys-cancel2.html
+$(document).keypress(function(key) {
+  if(key.which == 100) {
+    ringDoorbell();
+  }
+});
