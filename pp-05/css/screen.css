@@ -25,3 +25,10 @@ body {
 
 
 /* ===== STATE STYLES ===== */
+
+#doorbell-button {
+  line-height: 2em;
+  background-color: #CCC;
+  color: #630;
+  cursor: pointer;
+}
