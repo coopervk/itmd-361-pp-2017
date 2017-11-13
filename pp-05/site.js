@@ -5,3 +5,8 @@ function ringDoorbell() {
 
 //Replace the mp3 player native to the browser with a button, doorbell-button
 $("#doorbell-player").replaceWith('<button id="doorbell-button">Play a doorbell tune~</audio>');
+
+//When doorbell-button is clicked, ring the doorbell
+$("#doorbell-button").click(function() {
+  ringDoorbell();
+});
